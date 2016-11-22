@@ -15,7 +15,7 @@ h1.recipe{
   text-align: center;
   line-height: 80px;
 }
-h2.cheese {
+h2.cheesemac {
   margin:auto;
   padding: 3px;
   text-align: center;
@@ -66,6 +66,56 @@ li {
   line-height: 30px;
   color: black;
 }
+.mac {
+  width: 103px;
+  height:103px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+}
+.flour {
+  width: 103px;
+  height:103px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+  margin-left: -4px;
+}
+.milk {
+  width: 103px;
+  height:103px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+  margin-left: -4px;
+}
+.butter {
+  width: 103px;
+  height:103px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+  margin-left: -4px;
+}
+.pepper {
+  width: 103px;
+  height:103px;
+  padding:0px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+  margin-left: -4px;
+}
+.cheese {
+  width: 103px;
+  height:103px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+  margin-left: -4px;
+}
+.powder {
+  width: 103px;
+  height:103px;
+  margin-bottom: -55.5px;
+  margin-top:20px;
+  margin-left: -4px;
+  float: right;
+}
 
 img.cheesy {
   margin: center;
@@ -75,7 +125,7 @@ img.cheesy {
 
 }
 
-img:hover{
+img.cheesy:hover{
   opacity: 0.5;
 }
 .ingredients {
