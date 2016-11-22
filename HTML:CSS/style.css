@@ -6,7 +6,6 @@ body {
 
 h1,h2 {
   font-family: 'Prata', serif;
-  text-align: left;
   color: black;
 }
 
@@ -17,12 +16,12 @@ h1.recipe{
   line-height: 80px;
 }
 h2.cheese {
-  margin:left;
+  margin:auto;
   padding: 3px;
   text-align: center;
-  align:left;
   width:210px;
   background-color:white;
+  margin-top: -10px;
 }
 
 h2.ing{
@@ -45,37 +44,35 @@ h2.meth{
 }
 
 #wrap {
-  width: 100%;
-  margin: 100px 0px 0px 100px;
+  width: 720px;
+  margin:auto;
 }
 
 ul,ol {
   font-family: sans-serif;
-  margin: auto;
+  margin: center;
   display: block;
 }
 ul{
     display:inline-block;
-    vertical-align: top;
     float: left;
 }
 ol{
-  display:inline-block;
-  vertical-align: top;
+  display:block;
   float: right;
-
 }
 
 li {
   line-height: 30px;
-  padding-top: 20px;
   color: black;
 }
 
-img {
+img.cheesy {
   margin: center;
-  border: 3px solid black;
+  padding:0px;
   opacity: 1.0;
+  margin-top: 50px;
+
 }
 
 img:hover{
@@ -89,16 +86,6 @@ img:hover{
   width: 400px;
   float: left;
   padding: 0px;
-}
-.cheeseblock{
-  background-color: white;
-  width: 200px;
-  height: 48px;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 25px;
-  padding: 0,0,0,0;
-
 }
 
 .top {
