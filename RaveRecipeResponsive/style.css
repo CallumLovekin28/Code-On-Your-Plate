@@ -1,0 +1,40 @@
+img {
+    max-width: 100%;
+}
+
+h1, h2, header p, ul, ol p
+{
+    padding: 0 1rem;
+}
+ul {
+    list-style: none; /* remove the bullet points */
+}
+ol {
+    padding: 0;
+    list-style-type: none;
+}
+ol li
+{
+    counter-increment: item;
+}
+
+ol li p:after
+{
+    content: counter(item);
+    position: absolute;
+    left: 1rem;
+    font-size: 10rem;
+    opacity: .6;
+}
+@media (min-width: 40rem) /* this line is the query */
+{
+    /* if the query is true, then the following rules are applied.. */
+
+    body
+    {
+        max-width: 40rem;
+        margin: 0 auto; /* centre it horizontally */
+    }
+
+    /* ..up to here */
+}
